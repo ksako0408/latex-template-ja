@@ -1,19 +1,27 @@
-\documentclass{classes/report}
+% \documentclass[技ノート]{classes/nagare}
+\documentclass[研究報告]{classes/nagare}
+% \documentclass{classes/report}
+\graphicspath{{figures/}}
+\pagestyle{empty}
+\usepackage{amsmath} % 高度な数式記述用パッケージ
+% \usepackage{mathtools} % 高度な数式記述用パッケージ
 
 \begin{document}
 
-\subfile{sections/title}
-\newpage
+\subfile{sections/nagare_title}
+% \newpage
 
-\tableofcontents
-\clearpage
+% \tableofcontents
+% \clearpage
 
-\subfile{sections/abstract}
-\newpage
 
 \subfile{sections/main_issue}
 \newpage
 
-\subfile{sections/references}
+% \subfile{sections/abstract}
+% \newpage
+
+
+% \subfile{sections/references}
 
 \end{document}
